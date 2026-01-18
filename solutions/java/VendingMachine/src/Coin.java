@@ -2,7 +2,7 @@
 // fixed set of available values,
 // and access control (constructor of enum cannot instantiated explicitly)
 public enum Coin {
-    // public static final COIN PENNY = new COIN(0.01);
+    // public static final Coin PENNY = new Coin(0.01);
     PENNY(0.01),
     NICKEL(0.05),
     DIME(0.10),
